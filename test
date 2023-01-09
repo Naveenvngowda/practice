@@ -1,0 +1,73 @@
+    1  ls
+    2  touch file
+    3  mkdir workspace
+    4  cd workspace/
+    5  git clone https://github.com/Naveenvngowda/practice.git
+    6  ls
+    7  cd practice/
+    8  ls
+    9  touch file
+   10  history
+   11  uname -a
+   12  ps -u
+   13  who
+   14  whoami
+   15  hostname
+   16  ping localhost
+   17  ping 172-31-93-153
+   18  ping 44.203.67.62
+   19  ps -ef
+   20  ps -ef|grep "naveen"|awk -F " "'{print $2}'
+   21  ps -ef|grep "naveen"|awk -F " " '{print $2}'
+   22  ps -ef|grep "naveen"|awk -F " " '{print $2}'|kill -9 1912
+   23  clear
+   24  echo "hi , how are you">test
+   25  cat test
+   26  ls -l
+   27  ls|grep ^f
+   28  ls -lrt
+   29  ls -lt
+   30  touch .hide
+   31  la -a
+   32  tail -n 5 /var/log/syslog
+   33  clear
+   34  uptime
+   35  sed '1s/hi/hello/g' test
+   36  grep "e$" test
+   37  grep "are$" test
+   38  find . -type f -mtime +10
+   39  find . -type f -mtime -10
+   40  clear
+   41  find . -type f -empty
+   42  find . -type f -not -empty
+   43  clear
+   44  ls -l|cut -d ":" -f1
+   45  ls -l|cut -d ":" -f1,3
+   46  ls -l|cut -d ":" -f1,1
+   47  ls -l|cut -d ":" -f1,2
+   48  clear
+   49  du -sh
+   50  df -h
+   51  free
+   52  htop
+   53  top
+   54  clear
+   55  tree
+   56  ls -l|wc -lcw test
+   57  echo "this is second line">>test
+   58  cat test
+   59  awk -F " " '{print $NF}' test
+   60  grep -i "you" test
+   61  grep -v "you" test
+   62  sed -n ‘$p’ test
+   63  sed -n '$p' test
+   64  sed -n '$d' test
+   65  sed -n '1d' test
+   66  cat test
+   67  sed  '1d' test
+   68  clear
+   69  find . -type f -perm 0777
+   70  find . -maxdepth 1 -iname “test”
+   71  netstat -tunlp
+   72  history
+   73  history>test
