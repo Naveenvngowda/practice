@@ -1,0 +1,81 @@
+   21  grep -i "unix" test
+   22  grep -i "linux" test
+   23  grep "LINUX" test
+   24  cat test
+   25  vi test
+   26  grep "LINUX" test
+   27  vi test
+   28  grep "^L" test
+   29  grep -i "^L" test
+   30  cat test
+   31  grep -i ^s test
+   32  grep "have" test
+   33  clear
+   34  uptime
+   35  ps -ef
+   36  clear
+   37  vimstat
+   38  ping localhost
+   39  find . -type f -iname log
+   40  find . -type f -iname "log"
+   41  which log
+   42  which syslog
+   43  cat /var/log/syslog
+   44  awk 'FNR == 5 {print $3}' test
+   45  awk -F 'NR == 5 {print $3}' test
+   46  vi test
+   47  awk -F 'NR == 1 {print $3}' test
+   48  awk -F 'NR == 1 {print $1}' test
+   49  awk 'FNR == 1 {print $1}' test
+   50  awk 'FNR == 1 {print $2}' test
+   51  awk 'FNR == 2 {print $2}' test
+   52  clear
+   53  sort test
+   54  sort test|tee uniq
+   55  sort test|uniq
+   56  sort -r test|uniq
+   57  clear
+   58  find . -type d
+   59  clear
+   60  find . -type l
+   61  find / -type l
+   62  clear
+   63  find / -type f -10
+   64  find / -type f -mmin -5
+   65  clear
+   66  netstat -a
+   67  netstat -at
+   68  netstat -s
+   69  w
+   70  lsof
+   71  clear
+   72  echo $SHELL
+   73  printenv
+   74  clear
+   75  free -g
+   76  free -m
+   77  clear
+   78  ps aux
+   79  clear
+   80  $#
+   81  finger
+   82  lp test
+   83  logname
+   84  find . -type f -perm 777
+   85  history
+   86  groups
+   87  owners
+   88  owner
+   89  user
+   90  clear
+   91  id
+   92  less /etc/group
+   93  getent group
+   94  clear
+   95  pwd
+   96  ln -s /home/naveen link
+   97  ls
+   98  ln pwd hrdlink
+   99  ln /home/naveen hlink
+  100  ln /home/naveen/test hlink
+  101  ls
