@@ -1,0 +1,69 @@
+  123  uname -a
+  124  whoami
+  125  uptime
+  126  ping 172.31.93.153
+  127  ping naveen
+  128  date
+  129  tail -l
+  130  tail -f
+  131  tail f
+  132  clear
+  133  cat /etc/passwd
+  134  cat /etc/sudoers
+  135  sudo cat /etc/sudoers
+  136  clear
+  137  echo "hello world">file
+  138  cat file
+  139  echo "hello world file">>file
+  140  cat file
+  141  head -1 file
+  142  head -2 file|tail -1
+  143  sed '2s/hello/hi/g' file
+  144  sed -n "1p" file
+  145  sed -n "d$" file
+  146  sed  "d$" file
+  147  sed -i "d$" file
+  148  sed -e "d$" file
+  149  clear
+  150  sed "1d" file
+  151  find . -type f -empty
+  152  find . -type f -size +10k
+  153  find . -type f -size +10M
+  154  find . -type f -size +1M
+  155  find . -type f -size +1k
+  156  cat ./bash_history
+  157  cat ./.bash_history
+  158  cat ./.bash_profile
+  159  cat ./bash_profile
+  160  clear
+  161  tail -n f 5 /var/log/sysylog
+  162  tail -n 5 /var/log/sysylog
+  163  tail -n 5 /var/log/syslog
+  164  sudo tail -n 5 /var/log/syslog
+  165  ls|grep "^f"
+  166  grep -v "hi" file
+  167  find . -type f -mtime -1
+  168  du -sh
+  169  df -h
+  170  htop
+  171  top
+  172  free -m
+  173  netstat -tunlp
+  174  echo $SHELL
+  175  which naveen
+  176  which bin
+  177  ps -u
+  178  ps -u naveen
+  179  sort file
+  180  sort -r file
+  181  sort -r file|uniq
+  182  sort file|uniq
+  183  ls -l|awk -F ":" '{print $NF}'
+  184  ipconfig
+  185  lsof
+  186  id
+  187  nslookup mydatabase
+  188  sudo firewall-cmd --get-active-zones``
+  189  clear
+  190  sestatus
+  191  history
