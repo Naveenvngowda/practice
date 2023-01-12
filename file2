@@ -1,0 +1,79 @@
+ 1045  uname -a
+ 1046  cat uname -1
+ 1047  $?
+ 1048  cat uname -a
+ 1049  $?
+ 1050  uname -a
+ 1051  $?
+ 1052  $$?
+ 1053  echo $?
+ 1054  echi BASHPID
+ 1055  echo BASHPID
+ 1056  echo $BASHPID
+ 1057  who
+ 1058  echo $?
+ 1059  ps -u
+ 1060  echo $?
+ 1061  echo $BASHPID
+ 1062  vi test.sh
+ 1063  sh test.sh naveen gowda
+ 1064  cat test.sh
+ 1065  vi test.sh
+ 1066  sh test.sh naveen gowda
+ 1067  sh test.sh naveen
+ 1068  sh test.sh naveen gowda vn
+ 1069  lsof -i -P -n | grep LISTEN
+ 1070  vi test.sh
+ 1071  sh test.sh 
+ 1072  vi test.sh
+ 1073  clear
+ 1074  sh test.sh 
+ 1075  vi test.sh
+ 1076  sh test.sh 
+ 1077  vi test.sh
+ 1078  sh test.sh 
+ 1079  vi array.sh
+ 1080  sh array.sh
+ 1081  vi array.sh
+ 1082  sh array.sh
+ 1083  dfspace
+ 1084  find . -type f -mtime -3 -exec ls -l {} ;
+ 1085  find . -type f -mtime -3 -exec ls -l {} 
+ 1086  vi array.sh
+ 1087  sh array.sh
+ 1088  vi array.sh
+ 1089  sh array.sh test
+ 1090  sh array.sh test12
+ 1091  sh array.sh test2
+ 1092  clear
+ 1093  uname -a
+ 1094  hostname -i
+ 1095  ping lovalhost
+ 1096  ping localhost
+ 1097  uptime 
+ 1098  whoami
+ 1099  ps -ef
+ 1100  ps -u
+ 1101  df -sh
+ 1102  df -h
+ 1103  du -sh
+ 1104  free -m
+ 1105  htop
+ 1106  top
+ 1107  netstat -tunlp
+ 1108  find .-type f -mmin -1
+ 1109  find . -type f -mmin -1
+ 1110  ls
+ 1111  cat file
+ 1112  cat test
+ 1113  echo"heloo world">file
+ 1114  echo "heloo world">file
+ 1115  rev file
+ 1116  tail -n 5 /var/log/syslog
+ 1117  whic tomcat
+ 1118  which apache2
+ 1119  ls -l|awk 'FNR==2' '{print $1}'
+ 1120  ls -l|awk 'FNR==2 {print $1}'
+ 1121  ls -l|awk 'FNR==2 {print $4'
+ 1122  ls -l|awk 'FNR==2 {print $4}'
+ 1123  history
