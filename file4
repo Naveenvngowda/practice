@@ -1,0 +1,32 @@
+ 1127  uname -a
+ 1128  who
+ 1129  whoami
+ 1130  uptime
+ 1131  ps -u
+ 1132  df -h
+ 1133  du -sh
+ 1134  htop
+ 1135  top
+ 1136  free
+ 1137  tail -n 5 /var/log/syslog
+ 1138  find . -type f -empty
+ 1139  vi /etc/default/useradd
+ 1140  pwd
+ 1141  useradd naveen
+ 1142  useradd naveengowda
+ 1143  sudo useradd naveengowda
+ 1144  sudo passwd naveenvn
+ 1145  sudo passwd naveengowda
+ 1146  usermod -d /newhome/naveengowda naveengowda
+ 1147  sudo usermod -d /newhome/naveengowda naveengowda
+ 1148  pwd
+ 1149  su - naveengowda
+ 1150  clear
+ 215  git branch
+  216  git branch -b naveen
+  217  git branch
+  218  git branch naveen
+  219  git checkout naveen
+  220  git branch
+  221  touch file
+
