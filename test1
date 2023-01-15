@@ -1,0 +1,63 @@
+  212  uname -a
+  213  uname
+  214  who
+  215  whoami
+  216  ps -u
+  217  htop
+  218  free -m
+  219  top
+  220  du -sh
+  221  df -h
+  222  ps -ef
+  223  printenv
+  224  clear
+  225  sudo /etc/passwd
+  226  tail -n 5 /var/log/syslog
+  227  sudo tail -n 5 /var/log/syslog
+  228  usermod -aG sudo naveen
+  229  sudo usermod -aG sudo naveen
+  230  vi /etc/sudoers
+  231  sudo su
+  232  sudo su -
+  233  su -
+  234  sudo su
+  235  su -
+  236  sudo su -
+  237  exit
+  238  history
+  239  find . -type f -empty
+  240  find . -type f -not -empty
+  241  clear
+  242  ls -l
+  243  cat file
+  244  grep ^w file
+  245  grep -i ^w file
+  246  grep -i ^word file
+  247  sed 's/hello/hi/g' file
+  248  sed 's/hello/hi/2' file
+  249  find . -type -size +10k
+  250  find . -type f -size +10k
+  251  find . -type f -mtime -10
+  252  clear
+  253  sort -r file
+  254  sort -r file|uniq
+  255  sort  file
+  256  ls|grep ^f 
+  257  ls -l | awk ":" -F '{print $NF}'
+  258  ls -l | awk " " -F '{print $NF}'
+  259  ls -l|awk " " -F '{print $NF}'
+  260  ls -l|awk " " -F '{print $1}'
+  261  ls -l|awk  -F ":" '{print $1}'
+  262  ls -l|awk -F ":" '{print $NF}'
+  263  ls -l|cut -d ":" -f1
+  264  clear
+  265  ls -a
+  266  ls -lrt
+  267  ls -lt
+  268  pwd 
+  269  ls -n /home/naveen sftlnk
+  270  ln -s /home/naveen sl
+  271  ln  /home/naveen hl
+  272  ln  pwd  hl
+  273  ln  /home/naveen/hrdlink  hl
+  274  du -sh
