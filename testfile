@@ -1,0 +1,47 @@
+  306  whoami
+  307  who
+  308  uname -a
+  309  ps u
+  310  uptime
+  311  ls
+  312  natstat -tunlp
+  313  netstat -tunlp
+  314  ping localhost
+  315  hostname -i
+  316  find . -type f -size +10k
+  317  find . -type f -not -empty
+  318  ls -l|grep ^f
+  319  ls -l|grep ^w
+  320  ls -l|grep -i ^w
+  321  ls -l|awk -F " " '{print $1}'
+  322  ls -l|cut -d " " -f1-3
+  323  touch  file
+  324  echo "linux is operating system">file
+  325  cat file
+  326  tac file
+  327  rev file
+  328  grep -i "^o" file
+  329  sed 's/linux/unix/g' file
+  330  tail -n file
+  331  head -n file
+  332  tail -n 5 /var/log
+  333  tail -n 5 /var/log/syslog
+  334  htop
+  335  free
+  336  du -sh
+  337  df -h
+  338  ps -ef
+  339  cat /etc/
+  340  ls
+  341  cat /etc/passwd
+  342  history
+  343  cd workspace/
+  344  cd practice/
+  345  ls
+  346  cat file
+  347  git pull
+  348  git branch
+  349  git checkout manoj
+  350  touch test
+  351  ls
+
