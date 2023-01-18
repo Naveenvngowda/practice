@@ -1,0 +1,32 @@
+  316  uptime
+  317  uname -a
+  318  who
+  319  whoami
+  320  cat /etc/passwd
+  321  ps -u
+  322  ps -ef
+  323  du -sh
+  324  df  -h
+  325  free -m
+  326  htop
+  327  top
+  328  netstat -tunlp
+  329  netstat -l
+  330  ping localhost
+  331  hostname -i
+  332  ls
+  333  cat uniq
+  334  tac uniq
+  335  sort uniq
+  336  mv uniq test
+  337  mv test test
+  338  ls|grep ^t
+  339  ls -l|awk -F ":" '{print $NF}'
+  340  LS -L|CUT -D ":" -F1
+  341  ls -l|cut -d ":" -f1
+  342  find . -type f -perm 777
+  343  find . -type f -mtime -10
+  344  find . -type f -size +1M
+  345  cat uniq
+  346  cat test
+  347  sed 's/a/ /g' test
