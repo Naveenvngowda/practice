@@ -1,0 +1,34 @@
+  411  uptime
+  412  uname -a
+  413  who
+  414  whoami
+  415  ps -u
+  416  ps -u ubuntu
+  417  free -h
+  418  free -m
+  419  du -sh
+  420  df -h
+  421  cat MEMTOTAL /proc/meminfo
+  422  clear
+  423  find . -type f -maxdepth 2
+  424  find . -type f -size 0
+  425  find . -type f -empty
+  426  find . -type f -not -empty
+  427  clear
+  428  ls
+  429  cat test
+  430  echo "os">>test
+  431  cat test
+  432  grep "^os" test
+  433  grep "os$" test
+  434  grep -c "os" test
+  435  grep -c "a" test
+  436  ps -ef|grep "ubuntu"|awk -F " " '{print $2}'
+  437  grep -v "os" test
+  438  clear
+  439  grep -e "os" -e "have" test
+  440  find . -type f -perm 777
+  441  ping localhost
+  442  hostname -i
+  443  tail -n 5 /var/log/syslog
+  444  which test
