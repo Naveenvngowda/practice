@@ -1,0 +1,38 @@
+  411  ls
+  412  pwd
+  413  mkdir -p /dir1/dir1
+  414  sudo mkdir -p /dir1/dir1
+  415  ls -l
+  416  ls -a
+  417  ls -l|awk -F ":" '{print $NF-1}'
+  418  ls -l|cut -d ":" -f1
+  419  ls -l|cut -d ":" -f1,2
+  420  free -m
+  421  cat MEMTOTAL /proc/meminfo
+  422  htop
+  423  top
+  424  uptime
+  425  uname -a
+  426  who
+  427  whoami
+  428  ps -ef
+  429  ps u
+  430  netstat -tunlp
+  431  cat /etc/passwd
+  432  find . -type f -mtime -10
+  433  find . -type f -empty
+  434  tree
+  435  grep ^f
+  436  ls
+  437  cat file
+  438  grep ^s file
+  439  grep $s file
+  440  grep s$ file
+  441  sed 's/a/it/g' file
+  442  sed '2s/it//g' file
+  443  sed '2s/it/a/g' file
+  444  sed '2s/a/at/g' file
+  445  sed '3s/a/at/g' file
+  446  sed '5s/a/at/g' file
+  447  find . -type f -maxdepth 2
+
