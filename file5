@@ -1,0 +1,39 @@
+  361  who
+  362  whoami
+  363  uname -a
+  364  uptime
+  365  ps -u ubuntu
+  366  ps -u 
+  367  free -m
+  368  htop
+  369  du -sh
+  370  df -h
+  371  ls
+  372  cat test
+  373  tac test
+  374  cat file
+  375  cp test file
+  376  cat file
+  377  wc -c file
+  378  wc -l file
+  379  wc -w file
+  380  lsof
+  381  more file
+  382  less file
+  383  grep have file
+  384  sed 's/a/ /g' file
+  385  uname -v
+  386  uname -r
+  387  netstat
+  388  telnet
+  389  ps -ef
+  390  sed -n '3p' file
+  391  sed -n '1,3p' file
+  392  sed -n '1:3p' file
+  393  sed -n '1,3p' file
+  394  sed -n '$p' file
+  395  sed  '3d' file
+  396  find . -type f -maxdepth 2
+  397  find . -type f -maxdepth 1
+  398  find . -iname file
+  399  find . -type f -mtime -10
