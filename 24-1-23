@@ -1,0 +1,43 @@
+
+  462  uname -a
+  463  uptime
+  464  who
+  465  whoami
+  466  find . -type f -size +10k
+  467  find . -type f -size +10M
+  468  cat file
+  469  tac file
+  470  ls|grep ^f
+  471  find . type f -maxdepth
+  472  find . type f -maxdepth 2
+  473  find . -type f -maxdepth 2
+  474  free -m
+  475  free -h
+  476  htop
+  477  top
+  478  netstat -tunlp
+  479  ps -u
+  480  ps -ef
+  481  ps -ef |grep "ubuntu"|awk -F " " '{print $2}'
+  482  tail -n f 5 /var/log/syslog
+  483  tail -n 5 /var/log/syslog
+  484  tail -1 file
+  485  sort file|uniq
+  486  history
+  487  grep -v "is" file
+  488  grep -e "is" -e "file"  file
+  489  ls -a
+  490  ls -lrt
+  491  ls -lt
+  492  find . -type f file
+  493  find . -type f -empty
+  494  find . -type f -not -empty
+  495  history
+  496  cd ..
+  497  cd workspace/
+  498  cd practice/
+  499  ls
+  500  touch 24/1/23
+  501  touch 24-1-23
+  502  vi 24-1-23
+
