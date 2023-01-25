@@ -1,0 +1,60 @@
+  510  pwd
+  511  uname -a
+  512  la -a
+  513  cat .bashrc
+  514  uptime
+  515  who
+  516  whoami
+  517  ps -u ubuntu
+  518  ps -u -naveen
+  519  ps -ef
+  520  ps -ef |grep "ubuntu"|awk -F " " '{print $2}'
+  521  ps -ef |grep "naveen"|awk -F " " '{print $2}'
+  522  ps -ef |grep "naveen"|awk -F " " '{print $2}'|kill -9 4736
+  523  ls -lrt
+  524  ls -lt
+  525  ls -l|cut -d ":" -f1
+  526  touch test
+  527  cp file test
+  528  cat test
+  529  cat file
+  530  rm file
+  531  cat file
+  532  tac file
+  533  tac test
+  534  touch test1
+  535  cp test test1
+  536  cat test1
+  537  rm test1
+  538  sed 's/i/we/g' test
+  539  sed 's/I/we/g' test
+  540  sed -n "2p" test
+  541  sed -n "1:2p" test
+  542  sed -n "1;2p" test
+  543  sed -n "1p;2p" test
+  544  sed -n "1p:2p" test
+  545  clear
+  546  find . -type f -empty
+  547  find . -type f -rm -empty
+  548  rm -empty
+  549  clear
+  550  find . -type f -not -empty
+  551  cat ./.bash_history
+  552  history
+  553  $ find . -type f -empty -print -delete
+  554  $ find . -type f -empty
+  555  find . -type f -empty
+  556  find . -maxdepth 1 -type f -empty
+  557  find . -maxdepth 1 
+  558  find . -maxdepth 2
+  559  netstat -tunlp
+  560  ping localhost
+  561  hostname -i
+  562  grep -v "have" test
+  563  ls | grep ^t
+  564  history
+  565  free -m
+  566  du -sh
+  567  df -h
+  568  htop
+  569  top
