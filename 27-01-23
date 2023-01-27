@@ -1,0 +1,48 @@
+  511  ls
+  512  touch file.txt
+  513  vi file.txt
+  514  find . -name "*.txt"
+  515  find . -type f -empty
+  516  find . -type f -not -empty
+  517  find . -type f -size +1k
+  518  find . -name -type d "test"
+  519  find . -type f -perm ! 0777
+  520  find / -perm /u=r
+  521  find . -perm /a=x
+  522  find . -type f ! -perm 777
+  523  find . -type f -name "*.txt"
+  524  find . -type f -name "*.txt" grep practice
+  525  find . -type f -name "*.txt" grep "practice"
+  526  find . -type f -atime 50
+  527  find . -type f -mmin -60
+  528  find / -cmin -60
+  529  find / -size +50M -size -100M
+  530  find . -type f -maxdepth 2
+  531  find . -name Demo.txt -delete
+  533  cd workspace/
+  534  cd practice/
+  535  ls
+  536  touch 27-01-23
+  537  vi 27-01-23
+  538  cd -
+  539  cd ..
+  540  who
+  541  cat /etc/sudoers
+  542  tail -n 5 /avr/log/syslog
+  543  tail -n 5 /var/log/syslog
+  544  uptime
+  545  netstat -tunlp
+  546  cat /etc/passwd
+  547  find . -print | grep -i file
+  548  ls
+  549  cat file.txt
+  550  tac file.txt
+  551  echo "this is second line for textfle">>file.txt
+  552  cat file.txt
+  553  tac file.txt
+  554  find . -print | grep -i file.txt rm -f
+  555  find . -print | grep -i file.txt |rm -f
+  556  ls
+  557  find . -name "file.txt" -exec rm {} \;
+  558  ls
+
