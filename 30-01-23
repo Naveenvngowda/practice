@@ -1,0 +1,46 @@
+  569  uptime
+  570  who
+  571  whoami
+  572  uname -a
+  573  id
+  574  free -m
+  575  htop
+  576  top
+  577  du -sh
+  578  df -h
+  579  ps -u
+  580  natstat -tunlp
+  581  ps -u ubuntu
+  582  ps -ef
+  583  cat /etc/passwd
+  584  tail -n 5 /var/log/syslog
+  585  ls -lrt
+  586  ls -lt
+  587  ls -l
+  588  pwd
+  589  find . -type f -empty
+  590  find . -type f -not -empty
+  591  ls
+  592  cat test
+  593  grep -v "have" test
+  594  grep "^always" test
+  595  grep "^a" test
+  596  grep "$a" test
+  597  grep -e "seen" -e "have" test
+  598  sed -n "1p" test
+  599  sed -n "2p" test
+  600  sed -n "$p" test
+  601  sed  "2d" test
+  602  sed  -n "2p;3p" test
+  603  sed 's/a/at/g' test
+  604  find . -type f -size +1k
+  605  find . -type f -perm 0777
+  606  find . -type f -maxdepth 2
+  607  ls -l|awk -F ":" '{print $2}' 
+  608  cud -d ":" -f1
+  609  cut -d ":" -f1
+  610  ls -l |cut -d ":" -f1
+  611  cat MEMTOTAL /proc/meminfo
+  612  grep MEMTOTAL /proc/meminfo
+  613  find . -type f "*.txt"
+  614  cp test touch
