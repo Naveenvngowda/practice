@@ -1,0 +1,22 @@
+  583  ls
+  584  pwd
+  585  uptime
+  586  uname -a
+  587  who
+  588  whoami
+  589  free
+  590  ls
+  591  cat test
+  592  cat test|tee test1
+  593  cat test1
+  594  du -sh
+  595  df -h
+  596  find . -type f -size +1G
+  597  find  . -type f -perm 0777
+  598  sed -n "^1" test
+  599  sed -n "^1p" test
+  600  sed -n "2p" test
+  601  sed 's/have/had/g' test
+  602  ps -ef
+  603  ps -u
+
