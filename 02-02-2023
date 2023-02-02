@@ -1,0 +1,70 @@
+ 583  ls
+  584  pwd
+  585  uptime
+  586  uname -a
+  587  who
+  588  whoami
+  589  free
+  590  ls
+  591  cat test
+  592  cat test|tee test1
+  593  cat test1
+  594  du -sh
+  595  df -h
+  596  find . -type f -size +1G
+  597  find  . -type f -perm 0777
+  598  sed -n "^1" test
+  599  sed -n "^1p" test
+  600  sed -n "2p" test
+  601  sed 's/have/had/g' test
+  602  ps -ef
+  603  ps -u
+  604  history
+  605  cd workspace/
+  606  cd practice/
+  607  ls
+  608  git branch
+  609  touch 31-01-23
+  610  vi 31-01-23 
+  611  git add 31-01-23 
+  612  git commit -m "history"
+  613  git status
+  614  git log
+  615  git push
+  616  git suash
+  617  git --help
+  618  git push
+  619  exit
+  620  cd workspace/
+  621  cd practice/
+  622  ls
+  623  lsof
+  624  wc -cwl file
+  625  whoami
+  626  uname -a
+  627  hostname
+  628  free
+  629  du -sh
+  630  df -h
+  631  htop
+  632  ln -s /home/test/file softlink
+  633  ln /home/test/file hardlink
+  634  ln pwd  hardlink
+  635  grep -i -c "free" file
+  636  grep -R "free" *
+  637  grep -l -R "free" *
+  638  grep -w "linux" log
+  639  grep -w "linux" file
+  640  sed -n "3p" file
+  641  sed -n "3,4p" file
+  642  sed -n "$p" file
+  643  sort -r file
+  644  sort file
+  645  cat file|sort|uniq
+  646  find . -iname file
+  647  find . -type f maxdepth 2 -mtime +30
+  648  find . -type f -maxdepth 2 -mtime +30
+  649  find . -type d -mtime +30
+  650  find . -mmin -15
+  651  find . -type f -mtime +90|xargs rm
+  652  rm --help
