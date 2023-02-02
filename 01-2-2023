@@ -1,0 +1,103 @@
+ 583  ls
+  584  pwd
+  585  uptime
+  586  uname -a
+  587  who
+  588  whoami
+  589  free
+  590  ls
+  591  cat test
+  592  cat test|tee test1
+  593  cat test1
+  594  du -sh
+  595  df -h
+  596  find . -type f -size +1G
+  597  find  . -type f -perm 0777
+  598  sed -n "^1" test
+  599  sed -n "^1p" test
+  600  sed -n "2p" test
+  601  sed 's/have/had/g' test
+  602  ps -ef
+  603  ps -u
+  604  history
+  605  cd workspace/
+  606  cd practice/
+  607  ls
+  608  git branch
+  609  touch 31-01-23
+  610  vi 31-01-23 
+  611  git add 31-01-23 
+  612  git commit -m "history"
+  613  git status
+  614  git log
+  615  git push
+  616  git suash
+  617  git --help
+  618  git push
+  619  exit
+  620  pwd
+  621  uptime
+  622  whoami
+  623  who
+  624  netstat -tunlp
+  625  netstat -a
+  626  free
+  627  top
+  628  du -sh
+  629  df -h
+  630  ps -u
+  631  ps -u naveen
+  632  cat /etc/passwd
+  633  cat MEMTOTAL /proc/meminfo
+  634  cat /var/log/syslog
+  635  ls
+  636  cat test
+  637  tac test
+  638  awk -F " " '{print $1}' test
+  639  cut -d " " -fn-1
+  640  cut -d " " -f1
+  641  cut -d " " f1
+  642  cut -d " " -f2
+  643  cut -d " " -f2 test
+  644  cut -d " " -fn-1 test
+  645  find . -type f -perm 0777
+  646  find . -type f -perm ! 0777
+  647  find . -type f ! -perm  0777
+  648  find . -type -size +1k
+  649  find . -type f -size +1k
+  650  ps -ef
+  651  ping localhost
+  652  hostname -i
+  653  ps -ef|grep "ubuntu"
+  654  grep -v "have" test
+  655  sed 's/a/at/g' test
+  656  sed 's/a/at/5' test
+  657  sed 's/a/at/4' test
+  658  sed 's/a/at/3' test
+  659  sed 's/a/at/3g' test
+  660  sed 's/a/at/1' test
+  661  sed '3s/a/at/1' test
+  662  sed '4s/a/at/1' test
+  663  sed -n "3p" test
+  664  sed -n "$p" test
+  665  sed -n "$" test
+  666  sed "3d" test
+  667  rm test1
+  668  ls
+  669  mv touch test1
+  670  ls
+  671  cat test
+  672  cat test|tee test1
+  673  cat test1
+  674  find . -type f -maxdepth 2
+  675  tree
+  676  tail -f test
+  678  cd workspace/
+  679  cd practice/
+  680  ls
+  681  git branch
+  682  git status
+  683  git log
+  684  git checkout -b new1
+  685  touch 01-2-2023
+  686  vi 01-2-2023 
