@@ -1,0 +1,56 @@
+  659  who
+  660  whoami
+  661  uptime
+  662  uname -a
+  663  ps
+  664  cat /etc/passwd
+  665  ls -l
+  666  ls|grep ^t
+  667  ls -lrt
+  668  ls -lt
+  669  ls -l|cut -d " " -f1
+  670  ls -l|cut -d " " -f1,3
+  671  ls -l|cut -d " " -f1-3
+  672  ls -l|awk -F " " '{print $NF}'
+  673  ls -l|awk -F " " '{print $NF-1}'
+  674  cat test
+  675  tac test
+  676  sort test
+  677  find . -type f -size 0
+  678  find . -type d -size 0
+  679  find . -type l -size 0
+  680  find . -type -mmin -15
+  681  find . -type f -mmin -15
+  682  find . -name "test"
+  683  ps -ef
+  684  free -h
+  685  free -m
+  686  top
+  687  htop
+  688  netstat -tunlp
+  689  ping localhost
+  690  hostname
+  691  hostname -i
+  692  sed '2s/a/at/2g' test
+  693  sed '2s/a/at/2' test
+  694  sed '2/a/at/2' test
+  695  sed '3s/a/at/2' test
+  696  sed '3s/a/at/1' test
+  697  sed '2s/a/at/1' test
+  698  more test
+  699  less test
+  700  grep -v "have" test
+  701  grep "^s" test
+  702  grep "$s" test
+  703  grep "s$" test
+  704  du -sh
+  705  df -h
+  706  cat MEMTOTAL  /proc/meminfo
+  707  cat /var/log/syslog
+  708  tail -f test
+  709  tree
+  710  touch /workspace/practice/03-02-2023
+  711  clear
+  712  history
+  713  history 80
+  714  history 70
