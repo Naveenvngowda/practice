@@ -1,0 +1,54 @@
+  733  uptime
+  734  uname -a
+  735  who
+  736  whoami
+  737  tree
+  738  mkdir -p /dir1/dir2/dir3
+  739  sudo mkdir -p /dir1/dir2/dir3
+  740  vi /etc/sudoers
+  741  ls
+  742  cat test|tee test2
+  743  cat test2
+  744  rm test2
+  745  cat test|wc -w test
+  746  ls|grep ^t
+  747  ls -lrt
+  748  ls -lt
+  749  la -a
+  750  cat .config
+  751  cat ./config
+  752  ls -l|cut -d " " -f1
+  753  ls -l|cut -d " " -f3
+  754  ls -l|awk -F " " '{print $1}
+  755  ls -l|awk -F " " '{print $1}'
+  756  ls -l|awk -F " " '{print $NF}'
+  757  grep -e "have" -e "i" test
+  758  grep -e "have" -e "I" test
+  759  grep -iname "*.txt"
+  760  grep -name "*.txt"
+  761  grep -i "*.txt"
+  762  find . -name "*.txt"
+  763  touch sample.txt
+  764  find . -name "*.txt"
+  765  find . -type f -empty
+  766  find . -type f -not -empty
+  767  find . -type f -mtime +30
+  768  find . -type f -mmin -15
+  769  cat ./.viminfo
+  770  find . -type f -mmin -15
+  771  find . -type f -maxdepth 2
+  772  netstat -tunlp
+  773  netstat -a
+  774  ps -u naveen
+  775  ps -ef
+  776  ps -ef|grep naveen
+  777  sed 's/have/had/g' test
+  778  sed -n "3p" test
+  779  sed "$d"test
+  780  sed "$d" test
+  781  sed "3d" test
+  782  ls -l|sort
+  783  ls -l|sort -r
+  784  history
+  785  history 70
+  786  history 60
