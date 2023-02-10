@@ -1,0 +1,69 @@
+  796  uptime
+  797  uname -a
+  798  who
+  799  whoami
+  800  uname -r
+  801  mkdir -p dir1/dir2
+  802  ls
+  803  cd dir1
+  804  touch test
+  805  echo "this is dir1 testing file">test
+  806  echo "this is sond line of dir1 testing file">>test
+  807  cat test
+  808  ls|grep ^t
+  809  ls -a
+  810  cat dir2
+  811  cat test
+  812  ls -l
+  813  chmod u+x dir2
+  814  ls -l
+  815  chmod o+w dir2
+  816  ls -l
+  817  cat /etc/sudoers
+  818  grep -v "second" test
+  819  grep -v "sond" test
+  820  wc -lcw test
+  821  find . -type d -empty
+  822  find . -type l  -empty
+  823  find . -type d -not -empty
+  824  ps -u
+  825  ps -ef
+  826  ln -s pwd softlnk
+  827  ls
+  828  ln  pwd softlnk
+  829  sed -n "2p" test
+  830  sed  "2d" test
+  831  ls -l |awk -F " " '{print $NF}'
+  832  ls -l
+  833  find . -type f -maxdepth 2
+  834  find . -type -maxdepth 2
+  835  find . -type d -maxdepth 2
+  836  find . -type d -maxdepth 1
+  837  find . -type f -size 0
+  838  find . -type f -size +1k
+  839  find . -type f -mtime -15
+  840  cat test|tee test1
+  841  cat test1
+  842  mv test1 test2
+  843  cat test2
+  844  rm test2
+  845  ls
+  846  cat test1
+  847  free
+  848  top
+  849  htop
+  850  netstat -tunlp
+  851  du -sh
+  852  df -h
+  853  tail -f test
+  854  history
+  855  touch test.txt
+  856  find . -type f "*.txt"
+  857  ls
+  858  find . -type "*.txt"
+  859  find . -type f "^txt"
+  860  find . -type f "^.txt"
+  861  find . -type f "test"
+  862  find . -name "test"
+  863  find . -name "*.txt"
+  864  history 70
