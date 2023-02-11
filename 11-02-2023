@@ -1,0 +1,55 @@
+ 890  uptime
+  891  who
+  892  whoami
+  893  date
+  894  free
+  895  cat MEMTOTAL /proc/meminfo
+  896  htop
+  897  du -sh
+  898  df -h
+  899  ls
+  900  touch s1
+  901  find . -type f -mmin -15
+  902  rm test1
+  903  cat test|tee test1
+  904  echo " ">test
+  905  cat test
+  906  cat test1
+  907  rm tet1
+  908  rm test1
+  909  find . -maxdepth 2
+  910  find . -maxdepth 3
+  911  find . -maxdepth 4
+  912  find . -type -size 0
+  913  find . -type d -size 0
+  914  find . -type f -size 0
+  915  find . -type f -size 0|rm
+  916  find . -type f -size 0|rm -rf
+  917  find . -type f -size 0
+  918  ls|grep ^t
+  919  grep -v "^test"
+  920  ps -u naveen
+  921  ps -ef
+  922  ps aux
+  923  ps -ef|grep ubuntu
+  924  ps -ef|grep ubuntu|awk -F " " '{print $2}'
+  925  history 50
+  926  cd workspace/
+  927  cd practice/
+  928  ls
+  929  git pull
+  930  git branch -a
+  931  history
+  932  git branch 
+  933  git branch -d fri-day 
+  934  git checkout /home/naveen/workspace/practice
+  935  git branch -d fri-day 
+  936  git branch -m friday suterday
+  937  git branch
+  938  git add -A
+  939  git commit -a
+  940  touch .gitignore
+  941  git revert HEAD --no-edit
+  942  git log --oneline
+  943  vi 11-02-2023
+  944  history
