@@ -1,0 +1,64 @@
+  889  who
+  890  whoami
+  891  uname -a
+  892  pwd
+  893  free -m
+  894  free -t
+  895  free -g
+  896  htop
+  897  du -sh
+  898  df -h 
+  899  ps aux
+  900  ps -u
+  901  ls
+  902  cat s1
+  903  cp test test1
+  904  ls
+  905  cat test1
+  906  echo "this is file guru">test
+  907  cat test|tee test1
+  908  cat test1
+  909  ls -l
+  910  ls -lt
+  911  ls -lrt
+  912  ls |grep ^s1
+  913  ls -l|awk -F " " '{print $1}'
+  914  find . -type f -perm 0777
+  915  find . -type l -perm 0777
+  916  chmod u+rwx test
+  917  ls -l
+  918  chmod g+rwx test
+  919  chmod o+rwx test
+  920  ls -l
+  921  chmod a+wrx test1
+  922  ls -l
+  923  chmod a-wrx test1
+  924  ls -l
+  925  chmod a+wrx test1
+  926  ls -l
+  927  ls -l|cut -d " " -f1,2
+  928  ls -l|cut -d " " -f1-2
+  929  ls -l|cut -d " " -f1-5
+  930  ls -l|cut -d " " -f1,5
+  931  ls -l|sort
+  932  ls -l|sort -r
+  933  ls -l|sort -r|uniq
+  934  touch sample.txt
+  935  ls -l|sort -r|uniq
+  936  which test
+  937  cat MEMTOTAL /proc/meminfo
+  938  tail -f sample.txt
+  939  ls -l|tail -2
+  940  ls -l|tail -2|head -1
+  941  ls -l|head -n
+  942  ls -l|head -2
+  943  find . -type f -size 0
+  944  find . -type f -mtime +10
+  945  find . -type f -mmin -15
+  946  find . -type -maxdepth 2
+  947  find . -type l -maxdepth 2
+  948  cat printenv
+  949  printenv
+  950  cat /etc/passwd
+  951  tail -5 /var/log/syslog
+  952  history 100
