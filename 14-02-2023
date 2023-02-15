@@ -1,0 +1,66 @@
+
+  966  uname -a
+  967  who
+  968  whoami
+  969  pwd
+  970  cd -
+  971  ls -l
+  972  ls -lrt
+  973  ls -lt
+  974  ls
+  975  cat test1
+  976  echo "this is second line">>test
+  977  cat test
+  978  grep "^is" test
+  979  grep -i "^i" test
+  980  grep -i "^t" test
+  981  grep -i "^l" test
+  982  grep -i "$e" test
+  983  grep -i "e$" test
+  984  grep -i "d$" test
+  985  grep -i "u$" test
+  986  grep -v "second" test
+  987  grep -e "file" -e "is" test
+  988  ls |grep ^t
+  989  sed 's/is/was/g'test
+  990  sed 's/is/was/g' test
+  991  sed 's/is/was/2' test
+  992  sed 's/is/was/1' test
+  993  sed '1/is/was/1' test
+  994  sed '1s/is/was/1' test
+  995  sed '1s/is/was/1g' test
+  996  sed '1s/is/was/2g' test
+  997  sed '2s/is/was/2g' test
+  998  sed -n "2p" test
+  999  sed -n "$p" test
+ 1000  sed -n "1p;2p" test
+ 1001  sed "2d" test
+ 1002  ls -l|awk -F " " '{print $1}'
+ 1003  ls -l|awk -F " " '{print $NF}'
+ 1004  ls -l|cud -d " " -f1,2
+ 1005  ls -l|cut -d " " -f1,2
+ 1006  ls -l|cut -d " " -f1-3
+ 1007  find . -type f -size 0
+ 1008  find . -type f -mmin -15
+ 1009  find . -type d -mmin -15
+ 1010  find . -type l -mmin -15
+ 1011  find . -name "*.txt"
+ 1012  find . -type f -mtime +10
+ 1013  find . -type f -maxdepth 2
+ 1014  find . -type f -maxdepth 3
+ 1015  find . -type f -perm 777
+ 1016  tree
+ 1017  du -sh
+ 1018  df -h
+ 1019  htop
+ 1020  free -m
+ 1021  cat test|tee test1
+ 1022  sort test
+ 1023  sort test|uniq
+ 1024  ps -u
+ 1025  netstat -tunlp
+ 1026  ps -ef
+ 1027  ping localhost
+ 1028  hostname -i
+ 1029  history
+
