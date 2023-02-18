@@ -1,0 +1,41 @@
+  965  who
+  966  whoami
+  967  uname -a
+  968  free -m
+  969  du -sh
+  970  df -h
+  971  htop
+  972  ps -ef
+  973  pa aux
+  974  ps aux
+  975  ps -u
+  976  ls -l
+  977  ls -lrt
+  978  ls -lt
+  979  ls -l|grep ^t
+  980  ls
+  981  ls |grep ^t
+  982  ls -a
+  983  MEMTOTAL /proc/meminfo
+  984  cat MEMTOTAL /proc/meminfo
+  985  ls -l|awk -F ":" '{print $1}'
+  986  ls -l|cut -d " " -f1
+  987  ls -l|sort
+  988  cat test
+  989  tac test
+  990  find . -type f -perm 777
+  991  find . -type f ! -perm 777
+  992  find . -type f -size 0
+  993  find -type f mmin +1ok
+  994  find -type f mmin +9
+  995  find -type f mmin -15
+  996  find . -type f mmin -15
+  997  find . -type f -mmin -15
+  998  find . -type f -mtime +10
+  999  find . -type d -maxdepth 2
+ 1000  hostname -i
+ 1001  ping localhost
+ 1002  grep -v "second" test
+ 1003  grep -e "is" -e "file" test
+ 1004  history
+
