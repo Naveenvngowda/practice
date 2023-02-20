@@ -1,0 +1,52 @@
+1014  su - naveen
+ 1015  uname -a
+ 1016  who
+ 1017  whoami
+ 1018  free -m
+ 1019  du -sh
+ 1020  df -h
+ 1021  htop
+ 1022  ls
+ 1023  cat test
+ 1024  tac test
+ 1025  ls|grep ^t
+ 1026  ls -lt
+ 1027  ls -lrt
+ 1028  la -a
+ 1029  ls
+ 1030  la
+ 1031  ls -a
+ 1032  ps -ef
+ 1033  ls -l|awk -F " " '{print $NF}'
+ 1034  ls -l|cut -d ":" -f1
+ 1035  cat test|tee test1
+ 1036  grep -v "is" test
+ 1037  grep -v -i "is" test
+ 1038  cat test
+ 1039  grep -v "this" test
+ 1040  grep -v "^this" test
+ 1041  grep -v "^this" test1
+ 1042  grep -v "this" test1
+ 1043  grep -e "line" -e "guru" test
+ 1044  find . -type f -size 0
+ 1045  find . -type f -mmin -15
+ 1046  find . -type f -mtime +20
+ 1047  find . -type f -perm 777
+ 1048  find . -type f -maxdepth 2
+ 1049  hostname -i
+ 1050  ping localhost
+ 1051  tree
+ 1052  cat MEMTOTAL /proc/meminfo
+ 1053  tail -f test
+ 1054  tail -f 5 /var/log/syslog
+ 1055  tail -1 test
+ 1056  head -1 test
+ 1057  echo "this is thirdline">>"test"
+ 1058  cat test
+ 1059  head -1 test|tail -1
+ 1060  tail -2 test|head -a
+ 1061  tail -2 test|head -1
+ 1062  lsof
+ 1063  ls|lsos
+ 1064  ls|lsof
+ 1065  history
