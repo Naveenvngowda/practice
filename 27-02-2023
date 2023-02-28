@@ -1,0 +1,61 @@
+    4  who
+    5  whoami
+    6  whoiam
+    7  pwd
+    8  lsof
+    9  ls -lrt
+   10  ls -lt
+   11  touch test
+   12  echo "thsi is first file">test
+   13  cat test
+   14  echo"this is first file second line">>test
+   15  echo "this is first file second line">>test
+   16  cat test
+   17  grep -v "line" test
+   18  grep -i "f^" test
+   19  grep -i "^f" test
+   20  grep -i "^file" test
+   21  grep  "^file" test
+   22  grep  "^f" test
+   23  ls|grep ^f
+   24  ls|grep ^t
+   25  grep ^f test
+   26  grep -i ^f test
+   27  ls -l
+   28  ls -l|awk -F " " '{print $1}'
+   29  ls -l|awk -F " " '{print $NF}'
+   30  ls -l|cut -d " " -f1
+   31  ls -l|cut -d " " -f1,2
+   32  ls -l|cut -d " " -f1,2-3
+   33  ls -l|cut -d " " -f1,2-4
+   34  free -m
+   35  htop
+   36  du -sh
+   37  df -h
+   38  cat MEMTOTAL /proc/meminfo
+   39  tail -f test
+   40  tail -f 5 /var/log/syslog
+   41  tail -f n 5 /var/log/syslog
+   42  hostname -i
+   43  ping localhost
+   44  ps -ef
+   45  ps -u
+   46  ps -u ubuntu
+   47  tac test
+   48  find . -type f -perm 777
+   49  chmod 777 test
+   50  find . -type f -perm 777
+   51  find . -type f -mtime -10
+   52  find . -type f -mtime +10
+   53  find . -type f -mmin -15
+   54  find . -type f -maxdepth 2
+   55  ln -s stflink link
+   56  ls
+   57  tree
+   58  history
+   59  sed -n "2p" test
+   60  sed -n "2p:1p" test
+   61  sed -n "1p;2p" test
+   62  sed 's/first/second/g' test
+   63  history 60
+
