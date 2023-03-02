@@ -1,0 +1,76 @@
+ 135  ls
+  136  la -a
+  137  ls -lt
+  138  ls -lrt
+  139  ls -l
+  140  pwd
+  141  mkdir -p test1/test2/test3
+  142  mkdir -p test4/test2/test3
+  143  ls
+  144  cd test4
+  145  ls
+  146  cd test2
+  147  test3
+  148  ls
+  149  cd -
+  150  cd ..
+  151  cat test
+  152  tac test
+  153  cp -r test test4
+  154  cd test4
+  155  ls
+  156  cd -
+  157  mv test1 sample
+  158  ls
+  159  wc -l test
+  160  wc -c test
+  161  wc -w test
+  162  lsof
+  163  more test
+  164  less test
+  165  head -2 test
+  166  tail -1 test
+  167  ls -lrt|tee -a log
+  168  cat log
+  169  tac log
+  170  usedadd naveen
+  171  sudo useradd naveen
+  172  sudo passwd naveenvn
+  173  sudo passwd naveen
+  174  chsh
+  175  who
+  176  hostname -i
+  177  netstat -tunlp
+  178  sudo apt install net-tools
+  179  netstat -tunlp
+  180  telnet
+  181  du -sh
+  182  df -h
+  183  free -m
+  184  ps -u
+  185  ps -ef
+  186  htop
+  187  cat /etc/passwd|cut -d ":" -f1
+  188  grep -i -c "second" test
+  189  grep -i -c "this" test
+  190  grep -l -R "second" *
+  191  history
+  192  find . -type f -empty
+  193  find . -type f -not -empty
+  194  find . -type f -perm 777
+  195  find . -type f ! -perm 777
+  196  find . -type d -empty
+  197  find . -name "*.txt"
+  198  find . -type f -maxdepth 3
+  199  tree
+  200  sudo apt get install tree
+  201  sudo apt-get install tree
+  202  tree
+  203  sed -n "2p" test
+  204  rm test4
+  205  rm -rf test4
+  206  ls
+  207  mv col.txt coloumn.txt
+  208  ls
+  209  history
+
