@@ -1,0 +1,48 @@
+  221  find . -type f -mtime +30
+  222  find . -type f -mmin -30
+  223  cat ./.viminfo
+  224  find . -name "*.txt"
+  225  ls
+  226  find . -type f -maxdepth 2
+  227  tree
+  228  sudo apt install tree
+  229  snap install tree
+  230  sudo snap install tree
+  231  tree
+  232  find . -type f -perm 777
+  233  find . -type f  ! -perm 777
+  234  find . -type f -size +10k
+  235  find . -type f -empty
+  236  ls -l|grep ^t
+  237  ls -l
+  238  ls|grep ^t
+  239  ls|grep ^s
+  240  cat test
+  241  grep -v "second" test
+  242  sed 's/second/first/g' test
+  243  cat test
+  244  wc -l test
+  245  wc -w test
+  246  wc -c test
+  247  tail -f 5 /avr/logs/syslog
+  248  tail -f 5 /avr/logs/syslogs
+  249  tail -f 5 /var/logs/syslogs
+  250  tail -f 5 /var/logs/syslog
+  251  tail -f 5 /var/log/syslog
+  252  tail -f -n 5 /var/log/syslog
+  253  ps -u
+  254  ps -ef
+  255  ps -u ubuntu
+  256  netstat -t
+  257  netstat -u
+  258  netstat -tnulp
+  259  ping locahost
+  260  ping localhost
+  261  hostname -i
+  262  du -sh
+  263  df -h
+  264  cat MEMTOTAL /proc/meminfo
+  265  htop
+  266  top
+  267  free -m
+
